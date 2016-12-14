@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<title>Online Shopping Store | BuyOnline:MobilePhone,etc..</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+	div.inline {
+		float:left;
+	    padding:0;
+	}
+	.btn-group{
+	display:inline;
+	float:right;
+	border:none;
+	}
+	.la{
+	padding:5px;
+	}
+	.la button{
+	color:rgba(140, 140, 140,0.5);
+	background-color:white;
+	border-right: 1px solid rgba(140, 140, 140,0.5);
+	}
+	.la button:hover{
+		color: #39c6c6;
+	}
+	.clearBoth {
+		clear:both;
+	}
+	.btn-group li{
+	display:inline-block;
+	}
+	.search{
+		position:relative;
+		top:8px;
+	width: 350px;
+	}
+	.nav {
+		display:inline;
+		float:left;
+		border:none;
+		clear:both;
+		background-color:#39c6c6;
+		width:100%;
+	}
+	.nav ul-menu ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	overflow:hidden;
+	}
+	.nav li{
+	display:inline;
+	float:left;
+	}
+	.nav a{
+	display:block;
+	padding:2px 5px;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	}
+	.nav .ul-app{
+	padding:0;
+	list-style-type: none;
+	overflow:hidden;
+	float:right;
+	}
+	.nav i{
+		position:relative;
+		top:6px;
+	}
+	.col-md-4{
+	position:relative;
+	background-image: url("http://wallpapercave.com/wp/FxkWpmD.jpg");
+	background-size:cover;
+    height:250px;
+	width:795px;
+	}
+	.col-md-4 .btn-group{
+		position:absolute;
+		bottom:5px;
+		left:45px;;
+		display:inline-block;
+		float:left;
+		clear:both;
+	}
+	.col-md-4 .btn-group button{
+		background-color:rgba(140, 140, 140,0.5);
+		color: white;
+	}
+	.col-md-4 .btn-group button:hover{
+		background-color: black;
+		color: white;
+	}
+	
+	.ver-nav{
+	width:14em;
+	}
+	
+	.ver-nav ul{
+		list-style-type:none;
+		margin-left:0;
+		padding:0;
+		width:14em;
+	}
+	.ver-nav li{
+	display:block;
+	border-bottom:1px solid rgba(140, 140, 140,0.1);
+	}
+	.ver-nav a{
+	display:block;
+	padding:15px 15px 15px 25px;
+	text-decoration:none;
+	color:#000;
+	background: url('img1.png') no-repeat left center;
+	background-size: 16px 16px;
+		
+	}
+	#comp{
+	background: url('img2.png') no-repeat left center/16px 16px;
+	}
+	#electro{
+	}
+	#women {
+		background: url('sample1.jpeg') no-repeat left center/16px 16px;
+	}
+	#men{
+		background: url('sample.png') no-repeat left center/16px 16px;
+	}
+	#home{
+		background: url('img2.png') no-repeat left center/16px 16px;
+	}
+	#baby{
+		background: url('baby.png') no-repeat left center/16px 16px;
+	}
+	#sports{
+			background: url('sports.jpg') no-repeat left center/16px 16px;
+	}
+	#auto{
+			background: url('car.png') no-repeat left center/16px 16px;
+	}
+	#whole{
+			background: url('img2.png') no-repeat left center/16px 16px;
+	}
+	.ver-nav a:hover{
+	background-color: #f1f1f1;
+	}
+	.col{
+		border: 1px solid #000;
+	}
+	
+
+	</style>
+</head>
+<body>
+	<div class="inline"><img src="http://cdn02.shopclues.net/images/ui/shopclues-logo_new.jpg" alt="Shopclues.com"></div>
+	<div class="inline search">
+		<div class="form-group has-feedback">
+    		<input type="text" value="What are you looking for?" class="form-control" id="inputSuccess2"/>
+    		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+		</div>
+	</div>
+	<div class="inline dropdown">
+    <button style="position:relative;top:8px"class=" btn dropdown-toggle" type="button" data-toggle="dropdown">All Categories <span class="caret"></span></button>
+	<ul class="dropdown-menu">
+      <li><a href="#">All Categotnries</a></li>
+      <li><a href="#">Home and Kitchen</a></li>
+      <li><a href="#">Mobiles and Tablets</a></li>
+	  <li><a href="#">Computers</a></li>
+    </ul>
+	</div>
+	<div class="inline">
+		<button style="position:relative;top:8px" class="btn btn-primary" type="button">Search</button>
+	</div>
+	<div class="btn-group la">
+		<button type="button" class="btn" style="font-size:10px;color:#39c6c6"><i class="material-icons">room</i><br>CHANGE LOCATION</button>
+		<button type="button" class="btn" style="font-size:10px"><i class="material-icons">account_balance_wallet</i><br>SELL WITH US</button>
+		<button type="button" class="btn" style="font-size:10px"><i class="material-icons">phone</i><br>CALL US</button>
+		<button type="button" class="btn" style="font-size:10px"><i class="material-icons">perm_identity</i><br>SIGN IN</button>
+		<button type="button" class="btn " style="font-size:10px"><i class="material-icons">shopping_cart</i><br>CART</button>
+	</div> 
+	<div class="nav">
+		<ul class="ul-menu">
+    	<li><a href="#">SHOP BY CATEGORIES<i class="material-icons">view_headline</i></a></li>
+    	<li><a href="#"><i class="material-icons" style="color:red">work</i>   Super Saver Bazaar</a></li>
+    	<li><a href="#"><i class="material-icons">shopping_basket</i>   Everyday Basics</a></li>
+    	<li><a href="#"><i class="material-icons">weekend</i>   Revamp Your House</a></li>
+    	<li><a href="#"><i class="material-icons">card_giftcard</i>   Gift Store</a></li>
+    	<li><a href="#"><i class="material-icons">favorite_border</i>   Made In India</a></li>
+			<li><img src="http://cdn.shopclues.com/images/ui/topIcon/offerIcon_icon_x1.png" alt=""></li>
+		</ul>
+		<ul class="ul-app">
+			<li><a href="#"><img src="http://cdn.shopclues.com/images/ui/topIcon/android_icon.png?version=1" alt=""></a></li>
+			<li><a href="#"><img src="http://cdn.shopclues.com/images/ui/topIcon/apple_icon.png?version=1" alt=""></a></li>
+			<li><a href="#"><img src="http://cdn.shopclues.com/images/ui/topIcon/windows_icon.png?version=1" alt=""></a></li>
+	    </ul>
+		</div>
+	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="col-md-2 col-md-offset-2"></div>
+				  <div class="ver-nav">
+ 					 <ul>
+    					<li class="mob"><a href="#">Mobiles</a></li>
+   						 <li><a href="#" id="comp">Computers</a></li>
+    					 <li><a href="#" id="electro">Electronics</a></li>
+    					<li><a href="#" id="women">Women</a></li><i style="background-position: 0px -250px!important;"></i>
+   						 <li><a href="#" id="men">Men</a></li>
+    					<li><a href="#" id="home">Home & Kitchen</a></li>
+   						 <li><a href="#" id="baby">Baby & Kids</a></li>
+   						 <li><a href="#" id="sports">Sports & Daily Needs</a></li>
+						<li><a href="#" id="auto">Auto</a></li>
+						<li><a href="#" id="whole">Wholesale</a></li>
+ 						 </ul>
+					</div>
+				</div>
+		
+    			<div class="col-md-4">
+						<div class="btn-group">
+							<button type="button" class="btn" style="font-size:10px">Universal Store</button>
+							<button type="button" class="btn" style="font-size:10px">Play To Win Gifts</button>
+							<button type="button" class="btn" style="font-size:10px">Refurbished Flash Sale</button>
+							<button type="button" class="btn" style="font-size:10px">Godrej Security Solutions</button>
+							<button type="button" class="btn " style="font-size:10px">Fitness Dumbbells</button>
+							<button type="button" class="btn " style="font-size:10px">Your Favourite</button>
+						</div> 
+					</div>
+				<div class="col-md-2 col">
+					<div class="col-md-2 col-md-offset-2"></div>
+	  				<h5>Starts at Rs.2200<img height="30" width="30" src="http://www.lindybop.co.uk/images/audrey-red-polka-dot-swing-dress-p41-15865_zoom.jpg"></h5>
+	 				 <p><a href="#">Shop Now</a></p>
+			  </div>
+				<div class="row">
+				  <div class="col-md-1 col">
+					  <div class="col-md-2 col-md-offset-2"></div>
+					  <h5>Starts at Rs.2200<img height="30" width="30" src="http://www.lindybop.co.uk/images/audrey-red-polka-dot-swing-dress-p41-15865_zoom.jpg"></h5>
+	  					<p><a href="#">Shop Now</a></p>
+	  						<br>
+	  					<h5>Starts at Rs.2200<img height="30" width="30" src="http://www.lindybop.co.uk/images/audrey-red-polka-dot-swing-dress-p41-15865_zoom.jpg"></h5>
+	  					<p><a href="#">Shop Now</a></p>
+	  			</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
